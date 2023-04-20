@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Juego Matemático</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>JUEGO MATEMÁTICO</h1>
+	<div id="Timer">
+		
+	</div>
+	<div class="container">
+		<div class="izquierdo">
+			<div class="container-operacion">
+			 	<span id="suma">0 + 0 =</span>
+			 	<span class="resultado" id="resultado"> 0</span>
+			 </div>
+			 
+			 <span class="msj" id="msj">
+			 		
+			 </span>
+		</div>
+		<div class="derecha">
+			<span id="op1" class="opcion" onclick="controlarRespuesta(this)">1</span>
+			<span id="op2" class="opcion" onclick="controlarRespuesta(this)">0</span>
+			<span id="op3" class="opcion" onclick="controlarRespuesta(this)">-1</span>
+		</div>
+	
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
